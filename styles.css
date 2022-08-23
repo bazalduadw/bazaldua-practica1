@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('img/pexels-pixabay-270348.jpg') rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.contenedor-info{
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
