@@ -40,4 +40,12 @@
     .contenedor-info {
         margin: 0px 20px 0px 20px;
     }
+
+    .titulo{
+        font-size: 25px;
+    }
+
+    .subtitulo{
+        font-size: 20px;
+    }
 }
