@@ -19,8 +19,10 @@
 }
 
 .contenedor-info{
+    width: 500px;
     background: white;
     padding: 20px;
+    margin-bottom: 10px;
     text-align: center;
     border-radius: 10px;
 }
@@ -32,13 +34,18 @@
     margin-bottom: 10px;
 }
 
+.imagen{
+    width: 500px;
+}
+
 @media screen and (max-width: 900px){
     .contenedor{
         background-position: center;
     }
 
-    .contenedor-info {
-        margin: 0px 20px 0px 20px;
+    .contenedor-info, .imagen {
+        width: 90%;
+      
     }
 
     .titulo{
@@ -46,6 +53,7 @@
     }
 
     .subtitulo{
-        font-size: 20px;
+        font-size: 18px;
     }
+
 }
